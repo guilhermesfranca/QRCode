@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@media (max-width: 375px) {
+  .div_card {
+    width: 280px;
+    padding: 15px;
+  }
+  .div_card img {
+    width: 100%;
+  }
+  .div_card h2,
+  .div_card p {
+    font-size: 14px;
+  }
+}
+
+/* Para telas maiores que 375px e menores que 1440px */
+@media (min-width: 376px) and (max-width: 1440px) {
+  .div_card {
+    width: 350px;
+  }
+  .div_card img {
+    width: 100%;
+  }
+  .div_card h2,
+  .div_card p {
+    font-size: 16px;
+  }
+}
+
+/* Para telas maiores que 1440px */
+@media (min-width: 1441px) {
+  .div_card {
+    width: 400px;
+    padding: 20px;
+  }
+  .div_card img {
+    width: 100%;
+  }
+  .div_card h2,
+  .div_card p {
+    font-size: 18px;
+  }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .div_principal {
+    background-color: rgba(27, 235, 250, 0.466);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    min-height: 100vh; /
+   
+    
+  }
+  .div_card {
+    background-color: white;
+    width: 320px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+  .div_card img {
+    width: 320px;
+    border-radius: 20px;
+
+    }
+    .div_card h2 {
+        color: #2b7dfa;
+        padding: 0px 20px;
+        font-weight: 700;
+        font-family: "Outfit", serif;
+        text-align: center;
+        
+    }
+    .div_card p {
+        font-size: 15px;
+        padding: 0px 25px;
+        text-align: center;
+        font-family: "Outfit", serif;
+        font-weight: 400
+    }
